@@ -1,0 +1,31 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "modules": true,
+            "jsx": true,
+            "spread": true
+        }
+    },
+    "env": {
+        "browser": true,
+        "node": true,
+        "jquery": true
+    },
+    "parser": "babel-eslint",
+    "rules": {
+        "quotes": 0,
+        "no-trailing-spaces": 0,
+        "eol-last": 0,
+        "no-unused-vars": 0,
+        "no-underscore-dangle": 0,
+        "no-alert": 0,
+        "no-lone-blocks": 0,
+        "strict": ["warn", "global"]
+    },
+    "globals": {
+        "jQuery": true,
+        "$": true
+    }
+}

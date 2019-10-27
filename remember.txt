@@ -1,0 +1,32 @@
++ When testing out riker-server.js - i.e., you want to run your node server, do
+the following:
+
+1. edit client-render.jsx, and make sure that 'browserHistory' is used in
+configureStore call
+2. edit action-creators.js, and make sure "http://dev.rikerapp.com" urlPrefix is used
+3. gulp buildAndCompress --version=<VERSION>
+4. node dist/server/riker-server.js
+5. edit local nginx file: /usr/local/etc/nginx/servers/www.rikerapp.com,
+comment-out "DEV" config and enable "PROD" config
+6. sudo nginx -s reload
+
+Step 2 is easy to mess up.  You have to do it from the project root folder.  If
+you cd into "dist" or "dist/server", it won't work.
+
+
+################################################################################
+# 08/23/2017 - Updates
+################################################################################
+The above instructions are out-of-date.  Ignore step 5.  Instead, keep the
+production nginx config enabled, because, it's just better to always run the
+node server locally, for end-to-end testing purposes.  Step 1 is no longer
+relevant as well; we'll just ALWAYS use browserHistory (instead of hashHistory),
+since we'll always be running the node server, and thus we WANT to hit the
+server.  Step 2 is automated using env variables.
+
+So instead, do the following:
+
+1. ./gulp-dev-server.sh
+2. ./start-dev-server.sh
+
+You should now be able to hit: http://dev.rikerapp.com in a browser

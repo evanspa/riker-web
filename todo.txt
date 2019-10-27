@@ -1,0 +1,4 @@
++ Move away from the redux-store "api.requestInProcess" field, and instead make
+this a local piece of state in those pages that require it.  You've done this
+already for the authenticated home page component, but still need to do it for
+the other pages that use it.  (comment date: 01/03/2018)

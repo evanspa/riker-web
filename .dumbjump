@@ -1,0 +1,6 @@
+-dist
+-node_modules
+-.git
+-.sass-cache
+-.DS_Store
+-*.sh

@@ -1,0 +1,1050 @@
+body {
+    display: flex; /* https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/ */
+    flex-direction: column;
+    padding-bottom: 20px;
+    color: #3f4952;
+    background-color: #ECF0F1; /* 'clouds' */
+    font-size: 1.65em;
+    min-height: 100vh; /* http://stackoverflow.com/a/32720590/1034895 */
+}
+
+.react-autosuggest__container {
+    margin-bottom: 10px;
+}
+
+.react-autosuggest__input {
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    font-style: italic;
+}
+
+.react-autosuggest__input:focus {
+    outline: none;
+}
+
+.react-autosuggest__container--open .react-autosuggest__input {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.react-autosuggest__suggestions-container {
+    display: none;
+}
+
+.react-autosuggest__container--open .react-autosuggest__suggestions-container {
+    display: block;
+    position: absolute;
+    top: 51px;
+    width: 400px;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    z-index: 2;
+}
+
+.react-autosuggest__suggestions-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.react-autosuggest__suggestion {
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.react-autosuggest__suggestion:not(:first-child) {
+    border-top: 1px solid #ddd;
+}
+
+.react-autosuggest__suggestion:hover {
+    background-color: #0C7EAF;
+    color: #fff;
+}
+
+.suggestion-content {
+    /* display: flex; */
+    /* align-items: center; */
+    /* background-repeat: no-repeat; */
+}
+
+text.recharts-text.recharts-cartesian-axis-tick-value { font-size: 100%; }
+@media only screen and (max-device-width: 767px) { text.recharts-text.recharts-cartesian-axis-tick-value { font-size: 90%; }}
+@media only screen and (max-device-width: 600px) { text.recharts-text.recharts-cartesian-axis-tick-value { font-size: 85%; }}
+@media only screen and (max-device-width: 500px) { text.recharts-text.recharts-cartesian-axis-tick-value { font-size: 80%; }}
+@media only screen and (max-device-width: 400px) { text.recharts-text.recharts-cartesian-axis-tick-value { font-size: 75%; }}
+
+.more-charts-link {
+    display: inline-flex;
+    margin-right: 10px;
+    float: right;
+    padding-top: 0px;
+}
+
+@media only screen
+and (max-device-width: 420px) {
+    .more-charts-link {
+        margin-left: 15px;
+        float: none;
+        padding-top: 4px;
+    }
+}
+
+.unauth-home-btn {
+    width: 285px;
+}
+
+.riker-centered-div {
+    margin: 0 auto;
+}
+
+.facebook-btn {
+    background-color: #4B69BA;
+    color: white;
+    font-family: Helvetica,sans-serif;
+    font-size: 18px;
+    border-radius: 0;
+}
+
+.facebook-btn:hover {
+    color: white;
+}
+
+.recharts-default-legend {
+    margin-top: 10px;
+}
+
+.btn-riker {
+    color: #fff;
+    background-color: #59636C;
+}
+
+.btn-smaller {
+    font-size: 12px;
+}
+
+.btn-riker:hover {
+    background-color: #404A53; /* 10% darker  */
+    color: #fff;
+}
+
+.btn-riker:active {
+    background-color: #263039; /* 20% darker */
+}
+
+.btn-jumpTo {
+    border-width: 1.25px;
+    border-color: white;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: #59636C;
+}
+
+.btn-jumpTo-lite {
+    border-width: 1.75px;
+    border-color: #9EA3A8;
+    color: #9EA3A8;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: #F6F6F6;
+}
+
+.btn-reps {
+    color: #fff;
+    background-color: #7EB09F;
+}
+
+.btn-reps:hover {
+    background-color: #4B7D6C; /* 20% darker  */
+    color: #fff;
+}
+
+.btn-reps:active {
+    background-color: #184A39; /* 40% darker */
+}
+
+.btn-weightlifted {
+    color: #fff;
+    background-color: #98BBDB;
+}
+
+.btn-weightlifted:hover {
+    background-color: #6588A8; /* 20% darker  */
+    color: #fff;
+}
+
+.btn-weightlifted:active {
+    background-color: #325575; /* 40% darker */
+}
+
+.react-tabs [role=tab][aria-selected=true] {
+    border-color: #f0f0f0;
+    border-top-color: #f0f0f0;
+    border-right-color: #f0f0f0;
+    border-bottom-color: #f0f0f0;
+    border-left-color: #f0f0f0;
+    color: #3f4952;
+}
+
+.react-tabs [role=tablist] {
+    border-bottom-color: #f0f0f0;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+/* chart fonts  */
+tspan {
+    font-size: 85%;
+}
+
+span.recharts-legend-item-text {
+    font-size: 85%;
+    font-weight: bold;
+    color: #3f4952;
+    margin-bottom: 10px;
+}
+
+/* https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/ */
+.riker-page-content {
+    flex: 1;
+    width: 100%;
+}
+
+.footer {
+    font-size: 0.90em;
+    text-align: center;
+}
+
+.metricHeadingPanel {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 125%;
+    color: #FFF;
+    background-color: #59636C;
+}
+
+.chartTypeHeadingPanel {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 95%;
+    color: #FFF;
+}
+
+.new-movements-available {
+    color: white;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: #eb9316;
+    -webkit-border-radius: 3;
+    -moz-border-radius: 3;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+.base-banner {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 3px;
+}
+
+.trial-almost-expired-banner {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+
+.trial-expired-banner {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.upcoming-maintenance-banner {
+    color: white;
+    background-color: #3498db;
+}
+
+.maintenance-now-banner {
+    coor: white;
+    background-color: #eb9316;
+}
+
+.showNavBarLink {
+    float: right;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.email-verified-panel {
+    padding: 5px;
+    color: #3c763d;
+    font-size: 0.75em;
+}
+
+.email-unverified-panel {
+    padding: 5px;
+    color: #3f4952;
+    font-size: 0.75em;
+}
+
+.dont-change-pwd-panel {
+    padding: 5px;
+    color: #3f4952;
+    font-size: 0.75em;
+}
+
+.signup-steps {
+    margin-bottom: 15px;
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.signup-step {
+    color: #CCC;
+}
+
+.signup-bullets {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* toastr customization */
+.confirm-holder .confirm .message {
+    text-align: left;
+}
+
+.jumbotron {
+    background-color: #E8E4E3;
+}
+
+.center-it {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* http://stackoverflow.com/a/6394497/1034895 */
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] {
+    /*font-size: 1.35em;*/
+    font-size: 18px;
+}
+
+.home-img-section {
+    background-image: url('../images/rubber-mat-background-2800x1060.png');
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo-container {
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.dumbbell-icon {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background-image: url('../images/logo-90.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-right: 13px;
+}
+
+@font-face {
+    font-family: 'jr-hand';
+    src: url('../fonts/jr-hand.ttf');
+}
+
+.homeTitle {
+    color: #FFF;
+    font-size: 7.0em;
+    font-weight: bold;
+    font-family: jr-hand;
+    display: inline-block;
+    padding-top: 14px;
+}
+
+.homePrimaryCaption {
+    color: #F5FAF5;
+    font-size: 2.0em;
+    font-weight: bold;
+}
+
+.homeSecondaryCaption {
+    color: #F5FAF5;
+    font-size: 1.85em;
+    font-weight: bold;
+}
+
+.control-label {
+    font-size: 1.25em;
+    font-weight: normal;
+}
+
+.riker-label-nav {
+    vertical-align: middle;
+    font-family: jr-hand;
+    font-size: 1.3em;
+    color: #DDD;
+}
+
+.text-muted {
+    color: #727C85;
+}
+
+.breadcrumb {
+    background-color: #ECF0F1; /* 'clouds' */
+    margin-bottom: 14px;
+}
+
+.breadcrumb > .active {
+    color: #3f4952;
+}
+
+.recent {
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    list-style: none;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+
+.home-login {
+    color: #FFF;
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+.home-login:hover {
+    color: #FFF;
+}
+
+.btn-success:hover {
+    background-position: 0 0px;
+}
+
+.btn-danger {
+    border: 0px;
+    background-image: none;
+}
+
+.btn-primary {
+    border: 0px;
+    background-image: none;
+}
+
+.btn-lger {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 2px;
+}
+
+.btn-lg {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 3px;
+}
+
+.select-btn {
+    width: 275px;
+    white-space: normal; /* http://stackoverflow.com/a/1194680/1034895 */
+    word-wrap: break-word;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.black-transparent {
+    background: rgba(63, 73, 82, .75)
+}
+
+.page-heading {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.btn-xlg, .btn-group-lg > .btn {
+    padding: 14px 20px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.3333333;
+    border-radius: 3px;
+}
+
+.form-group-lg .form-control {
+    border-radius: 2px;
+}
+
+.form-group-xlg .form-control {
+    height: 48px;
+    padding: 25px 18px;
+    font-size: 34px;
+    line-height: 1.5;
+    border-radius: 0px;
+}
+
+/* http://stackoverflow.com/questions/4137255/checkboxes-in-web-pages-how-to-make-them-bigger */
+input[type="checkbox"] {
+    margin-bottom: 0px;
+    -webkit-appearance: none;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 5px;
+    border: 2px solid #3f4952;
+}
+
+/* http://stackoverflow.com/questions/4137255/checkboxes-in-web-pages-how-to-make-them-bigger */
+input[type='checkbox']:checked {
+    background: #337ab7;
+    background-image: url('../images/checkmark.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.set-num-circle {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #FFF;
+    line-height: 30px;
+    text-align: center;
+    background: #3498db;
+    border: solid;
+    border-color: #3498db;
+    border-width: 3px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.clickable-set-num-circle {
+    cursor: pointer;
+    cursor: hand;
+    /* http://stackoverflow.com/a/7018415/1034895 */
+    -webkit-user-select: none; /* Chrome/Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+    /* Rules below not implemented in browsers yet */
+    -o-user-select: none;
+    user-select: none;
+}
+
+.current-set-num-circle {
+    color: #3f4952;
+    background-color: #ECF0F1; /* 'clouds' */
+    border-color: #3498db;
+}
+
+.formGroupHelpText {
+    font-size: .8em;
+}
+
+/* https://github.com/react-bootstrap/react-bootstrap/issues/995 */
+/* .modal-dialog { */
+/*     position: absolute; */
+/*     top: 30%; */
+/*     left: 50%; */
+/*     transform: translate(-50%, -50%) !important; */
+/* } */
+
+.carousel-arrow-container {
+    display: inline-flex;
+    float: right;
+}
+
+.question-mark {
+    display: inline-flex;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    background-color: #59636C;
+    border-radius: 50%;
+    color: #FFF;
+    font-size: 15px;
+    font-family: "Courier";
+    cursor: hand;
+    margin-left: 10px;
+    /* http://stackoverflow.com/a/7018415/1034895 */
+    -webkit-user-select: none; /* Chrome/Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+    /* Rules below not implemented in browsers yet */
+    -o-user-select: none;
+    user-select: none;
+}
+
+.question-mark.question-mark-light {
+    background-color: #EBF0F1;
+    color: #3f4952;
+}
+
+.exclamation-point-danger {
+    display: inline-block;
+    text-align: center;
+    margin-right: 5px;
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border-radius: 50%;
+    color: #E8E4E3;
+    font-size: 18px;
+    font-style: bold;
+    cursor: hand;
+    /* http://stackoverflow.com/a/7018415/1034895 */
+    -webkit-user-select: none; /* Chrome/Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+    /* Rules below not implemented in browsers yet */
+    -o-user-select: none;
+    user-select: none;
+}
+
+.exclamation-point-warning {
+    display: inline-block;
+    text-align: center;
+    margin-right: 5px;
+    width: 25px;
+    height: 25px;
+    background-color: orange;
+    border-radius: 50%;
+    color: #3f4952;
+    font-size: 18px;
+    font-style: bold;
+    cursor: hand;
+    /* http://stackoverflow.com/a/7018415/1034895 */
+    -webkit-user-select: none; /* Chrome/Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+    /* Rules below not implemented in browsers yet */
+    -o-user-select: none;
+    user-select: none;
+}
+
+.btn-success {
+    background-image: linear-gradient(to bottom, #5cb85c 0%, #5cb85c 100%);
+    border-color: #5cb85c;
+}
+
+.btn-seeallapps {
+    -webkit-box-shadow: 0px 0px 0px;
+    -moz-box-shadow: 0px 0px 0px;
+    box-shadow: 0px 0px 0px;
+    background-color: #3f4952;
+    border-color: #FFF;
+    color: #FFF;
+}
+
+.btn-seeallapps:hover {
+    background-color: #EEEEF1;
+    border-color: #FFF;
+    color: #3f4952;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar-default {
+    background-color: #3f4952;
+    border-color: #3f4952;
+    border-radius: 0px;
+}
+
+.navbar .container-fluid {
+    background-color: #3f4952;
+}
+
+.navbar-brand {
+    background-color: #3f4952;
+    padding: 5px;
+    font-size: 1.7em;
+    text-shadow: none;
+}
+
+.navbar-brand > img {
+   max-height: 100%;
+   height: 100%;
+   width: auto;
+   margin: 0 auto;
+}
+
+.navbar-brand-bare {
+    background-color: #3f4952;
+    margin-bottom: 20px;
+    height: 50px;
+    text-align: center;
+}
+
+.navbar-brand-bare-img {
+    max-height: 100%;
+    height: 100%;
+    width: auto;
+    margin: 0 auto;
+    padding: 5px
+}
+
+.navbar-header {
+    background-color: #3f4952;
+}
+
+.navbar-default .navbar-brand {
+    color: #FFF;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #E8E4E3;
+}
+
+.navbar-default .navbar-text {
+    color: #E8E4E3;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #FFF;
+    text-shadow: none;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #FFF;
+}
+
+/* https://github.com/reactjs/react-router/issues/666#issuecomment-158369519 */
+.navbar-default  .navbar-nav > .active > a,
+.navbar-default  .navbar-nav > .active > a:hover,
+.navbar-default  .navbar-nav > .active > a:focus,
+.navbar-default  .navbar-nav > li > a.active,
+.navbar-default  .navbar-nav > li > a:hover.active,
+.navbar-default  .navbar-nav > li > a:focus.active {
+    color: #FFF;
+    background-color: #979392;
+    background-image: none;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #d1d5e3;
+    background-color: #337ab7;
+    background-image: none;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: #3f4952;
+}
+
+.navbar-default .navbar-toggle:focus {
+    background-color: #337ab7;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ecf0f1;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: #ecf0f1;
+}
+
+.navbar-default .navbar-link {
+    color: #ecf0f1;
+}
+
+.navbar-default .navbar-link:hover {
+    color: #d1d5e3;
+}
+
+/* https://github.com/twbs/bootstrap/issues/11483#issuecomment-28505519 */
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transform: translateZ(0);
+  -webkit-transition: height 0.35s ease 1s linear;
+  -moz-transition: height 0.35s ease 1s linear;
+  -o-transition: height 0.35s ease 1s linear;
+  -ms-transition: height 0.35s ease 1s linear;
+  transition: height 0.35s ease 1s linear;
+  -webkit-transition: height 0.35s ease;
+  transition: height 0.35s ease;
+}
+
+.entityFieldName {
+    background-color: #F5F5F5;
+    text-align: right;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin: 0px;
+}
+
+.form-group-lg .incDecInput {
+    font-size: 32px;
+    height: 64px;
+}
+
+.incDecButton {
+    display: inline-block;
+    width: 125px;
+    height: 64px;
+    background-color: #3f4952;
+    /* border-radius: 50%; */
+    border-radius: 5px;
+    padding-top: 15px;
+    /* padding-right: 3px; */
+    color: #E8E4E3;
+    font-size: 24px;
+    text-align: center;
+    /* margin-bottom: 8px; */
+    line-height: 36px;
+    /* margin-right: 10px; */
+    cursor: pointer;
+    cursor: hand;
+    /* http://stackoverflow.com/a/7018415/1034895 */
+    -webkit-user-select: none; /* Chrome/Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+    /* Rules below not implemented in browsers yet */
+    -o-user-select: none;
+    user-select: none;
+}
+
+.incDecButton:active {
+    background-color: #0165A8;
+    border-color: #00195C;
+}
+
+/* http://stackoverflow.com/a/16443653/1034895 */
+@media only screen
+and (max-device-width: 767px) {
+
+    .unauth-home-btn {
+        width: 250px;
+    }
+
+    .btn-smaller {
+        font-size: 10px;
+    }
+
+    .btn {
+        font-size: 12px;
+    }
+
+    .btn-jumpTo {
+        font-size: 12px;
+    }
+
+    .btn-riker {
+        font-size: 12px;
+    }
+
+    .btn-jumpTo-lite {
+        font-size: 12px;
+    }
+
+    .react-autosuggest__container--open .react-autosuggest__suggestions-container {
+        width: 265px;
+    }
+
+    .cancellation-info {
+        font-size: .8em;
+    }
+
+    .payment-info {
+        /*font-size: .8em;*/
+    }
+
+    .panel-title {
+        font-size: 14px;
+        font-weight: normal;
+    }
+
+    .showNavBarLink {
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+
+    .signup-steps {
+        font-size: 14px;
+    }
+
+    .signup-bullets {
+        font-size: 14px;
+    }
+
+    .question-mark {
+        font-size: 16px;
+    }
+
+    .exclamation-point-danger {
+        font-size: 18px;
+    }
+
+    .exclamation-point-warning {
+        font-size: 18px;
+    }
+
+    /* http://stackoverflow.com/a/3078353/1034895 */
+    input:not([type=checkbox]):not([type=radio]) {
+        -webkit-appearance: none;
+    }
+
+    .breadcrumb {
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+
+    .footer {
+        font-size: 0.60em;
+    }
+
+    .well {
+        padding: 15px;
+    }
+
+    .select-btn {
+        width: 220px;
+    }
+
+    .logo-container {
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+
+    .home-login {
+        color: #FFF;
+        font-weight: bold;
+        font-size: 1.0em;
+    }
+
+    .btn-xlg, .btn-group-lg > .btn {
+        padding: 12px 14px;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 1.0;
+        border-radius: 3px;
+    }
+
+    .navbar-brand-bare {
+        margin-bottom: 20px;
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #ecf0f1;
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #d1d5e3;
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #d1d5e3;
+        background-color: #337ab7;
+    }
+
+    .btn-lger {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 2px;
+        font-size: 14px;
+    }
+
+    .btn-lg {
+        padding-top: 13px;
+        padding-bottom: 13px;
+        border-radius: 3px;
+        font-size: 16px;
+    }
+
+    .dumbbell-icon {
+        width: 75px;
+        height: 75px;
+        background-image: url('../images/logo-75.svg');
+        margin-right: 10px;
+    }
+
+    .homeTitle {
+        font-size: 3.5em;
+        padding-top: 7px;
+    }
+
+    .homePrimaryCaption {
+        color: #FFF;
+        font-size: 1.5em;
+    }
+
+    .homeSecondaryCaption {
+        color: #FFF;
+        font-size: 1.0em;
+    }
+
+    h1 {
+        font-weight: bold;
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    .page-heading {
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+
+    .form-group-lg .incDecInput {
+        font-size: 24px;
+        height: 58px;
+    }
+
+    .incDecButton {
+        font-size: 16px;
+        height: 58px;
+        padding-top: 13px;
+    }
+}

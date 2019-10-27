@@ -1,0 +1,7 @@
+export const NEW_SET_FORM = "newSet"
+export const SET_FORM = "set"
+export const SETTINGS_FORM = "settings"
+export const BODY_JOURNAL_LOG_FORM = "bodyjournallog"
+export const NEW_BML_FORM = "newBml"
+export const CHART_CONFIG_FORM = "chartConfig"
+export const USER_ACCOUNT_FORM = "userAccountEdit"

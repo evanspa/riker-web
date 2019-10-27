@@ -1,0 +1,68 @@
+@media only screen
+and (max-device-width: 332px)
+and (orientation: portrait) {
+    .home-img-section {
+        background-image:url('../images/rubber-mat-background-332x530.png');
+        /*background-size: 332px 530px;*/
+    }
+}
+
+@media only screen
+and (max-device-width: 332px)
+and (orientation: landscape) {
+    .home-img-section {
+        background-image:url('../images/rubber-mat-background-552x530.png');
+        /*background-size: 552px 530px;*/
+    }
+}
+
+@media only screen
+and (min-device-width: 333px)
+and (max-device-width: 498px)
+and (orientation: portrait) {
+    .home-img-section {
+        background-image:url('../images/rubber-mat-background-498x530.png');
+        /*background-size: 498px 530px;*/
+    }
+}
+
+@media only screen
+and (min-device-width: 333px)
+and (max-device-width: 498px)
+and (orientation: landscape) {
+    .home-img-section {
+        background-image:url('../images/rubber-mat-background-740x530.png');
+        /*background-size: 740px 530px;*/
+    }
+}
+
+/* iPad Portrait */
+/* @media only screen */
+/* and (min-device-width: 768px) */
+/* and (max-device-width: 1024px) */
+/* and (orientation: portrait) { */
+/*     .home-img-section { */
+/*         background-image:url('../images/rubber-mat-background-784x795.png'); */
+/*         background-size: 784px 795px; */
+/*     } */
+/* } */
+
+/* iPad Landscape */
+/* @media only screen */
+/* and (min-device-width: 768px) */
+/* and (max-device-width: 1024px) */
+/* and (orientation: landscape) { */
+/*     .home-img-section { */
+/*         background-image:url('../images/rubber-mat-background-1024x795.png'); */
+/*         background-size: 1024px 795px; */
+/*     } */
+/* } */
+
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+    .home-img-section {
+        background-image:url('../images/rubber-mat-background-1024x795.png');
+        /*background-size: 1024px 795px;*/
+    }
+}

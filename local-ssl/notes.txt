@@ -1,0 +1,9 @@
+I followed these instructions to create a self-signed certificate that Chrome
+would trust.
+
+https://alexanderzeitler.com/articles/Fixing-Chrome-missing_subjectAltName-selfsigned-cert-openssl/
+
+Just run the 2 scripts.  When prompted for common name, use "dev.rikerapp.com"
+
+When done, open the Keychain app and import the ssl/server.crt file.  Once
+imported, double click the certificate and choose "Always Trust".
